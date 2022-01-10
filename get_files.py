@@ -24,7 +24,6 @@ def main():
     # set the environment variable
     os.environ['BC_SPECIAL_WORD'] = ''
     files = get_files.get_list_of_files(directory)
-    print(files)
     val.scan_files(files)
 
 
